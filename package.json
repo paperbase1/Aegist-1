@@ -1,0 +1,14 @@
+{
+  "name": "vulnscan-demo-bad",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable demo app -- worst-case tier. Used to demo security scanners. Do not deploy.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "lodash": "4.17.4",
+    "totally-real-http-utils-2024": "1.0.0"
+  }
+}
